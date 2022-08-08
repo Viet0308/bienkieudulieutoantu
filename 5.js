@@ -1,0 +1,10 @@
+let a = prompt("nhap sinh hoc: ");
+let b = prompt("nhap hoa hoc: ");
+let c = prompt("nhap vat ly: ");
+a = parseInt(a);
+b = parseInt(b);
+c = parseInt(c);
+let x = (a+b+c);
+    alert("tong diem" + x) ;
+let y = (x/3);
+    alert(" diem trung binh " + y );
